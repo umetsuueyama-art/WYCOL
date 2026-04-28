@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WYCOL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <div class="header-container">
+        <div class="logo">
+            <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Gragas_Barrel_Roll_2_HD.png/120px-Gragas_Barrel_Roll_2_HD.png?d1eb4" alt="logo">
+        </div>
+        <button>Histórico</button>
+        <button>Informações</button>
+    </div>
+
+    <div class="perguntas-container">
+        <p class="pergunta">Pergunta aqui</p>
+
+        <div class="alternativas">
+            <button id="alternativa-a"></button>
+            <button id="alternativa-b"></button>
+            <button id="alternativa-c"></button>
+            <button id="alternativa-d"></button>
+            <button id="alternativa-e"></button>
+        </div>
+    </div>
+
+</div>
+
+<div id="resultado-modal" class="modal">
+    <div class="modal-box">
+        <h2 id="resultado-texto"></h2>
+        <button id="fechar-modal" onclick="fecharModal()">Fechar</button>
+    </div>
+</div>
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
